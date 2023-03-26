@@ -19,7 +19,7 @@ $key = array_search($change_btn[0], $course_id);
 //echo $change_btn[0];
 
 $host = 'localhost:8889';
-$dbname = 'assignment_3';
+$dbname = 'Assignment_3';
 $usrnm = 'root';
 $psswd = 'root';
 $pdo = new PDO('mysql:host=' . $host . ';dbname=' . $dbname, $usrnm, $psswd);

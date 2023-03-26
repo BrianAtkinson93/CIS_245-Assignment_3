@@ -12,7 +12,7 @@ function getPdo()
 
 // Database connection and query
     $host = 'localhost:8889';
-    $dbname = 'assignment_3';
+    $dbname = 'Assignment_3';
     $usrnm = 'root';
     $psswd = 'root';
     $pdo = new PDO('mysql:host=' . $host . ';dbname=' . $dbname, $usrnm, $psswd);
